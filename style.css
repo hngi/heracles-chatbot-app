@@ -1,7 +1,7 @@
 
             body { 
-                color: #421; font-weight: bold; font-size: 18px; background: #87cefa; 
-                background-image: url("https://res.cloudinary.com/jokuriodev/image/upload/v1569268230/heraclesbot_a3oo70.png"); background-repeat: repeat-y; 
+                color: #421; font-weight: bold; font-size: 18px; background: #A9A9A9; 
+                background-image: url("https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png"); background-repeat: no-repeat;background-size:50%; 
             }
             span { 
                 color: #711; 
@@ -17,7 +17,10 @@
                 margin: 10px; 
             } 
             #input { 
-                border: 0; background: #FBF0D9; padding: 5px; border: 1px solid #000000; 
+                border: 0; background: #F5F5F5; padding: 5px; border: 1px solid #000000; 
             }
             
-        
+            #bot-head{
+                border-radius: 50%;
+                width: 50px;
+            }
