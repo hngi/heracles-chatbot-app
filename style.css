@@ -1,26 +1,89 @@
+/* <<<<<<< mybranch
+body, html{
+    height: 100%;
+}
+.bg{
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dlfbw1snm/image/upload/v1569272085/Group_ssy7oh_s0o1jz.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+p{
+    font-size: 1.5em;
+    position: absolute;
+    top: 200px;
 
-            body { 
-                color: #421; font-weight: bold; font-size: 18px; background: #A9A9A9; 
-                background-image: url("https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png"); background-repeat: no-repeat;background-size:50%; 
-            }
-            span { 
-                color: #711; 
-            } 
-            ::-webkit-input-placeholder { 
-                color: #711 
-            }
-            #main { 
-                position: fixed; top: 40%; right: 60px; width: 400px; 
-                border: 0px solid #421; padding: 40px; 
-            }
-            #main div { 
-                margin: 10px; 
-            } 
-            #input { 
-                border: 0; background: #F5F5F5; padding: 5px; border: 1px solid #000000; 
-            }
-            
-            #bot-head{
-                border-radius: 50%;
-                width: 50px;
-            }
+.bot-container {
+  background: url("https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png") no-repeat center;
+  background-size: 100% auto;
+  font-family: Helvetica;
+  position: absolute;
+}
+@media (max-width: 700px) {
+  .bot-container {
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+  }
+}
+.modal {
+  height: 80%;
+}
+.modal-content {
+  text-align: center;
+  color: hsl(202, 99%, 30%);
+}
+.bot-bg {
+  min-width: 320px;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+}
+.row {
+  margin: 20% 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.btn-primary {
+  background-color: #016098;
+  border-radius: 20px;
+  color: white;
+  font-size: 1em;
+  height: 62px;
+  left: 627px;
+  width: 173px;
+  margin: 10px;
+  border: 1px solid;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(214, 211, 211, 0.2),
+    0 6px 20px 0 rgba(241, 241, 241, 0.19);
+}
+.bot-bg{
+    background: url('https://res.cloudinary.com/benjee/image/upload/v1569248286/Group_ssy7oh.png');
+    width: 100%;
+    min-height: 100%;
+}
+
+.bot-content{
+    margin: 20% 0;
+    text-align: center;
+}
