@@ -26,6 +26,23 @@ window.onclick = function(event) {
   }
 }
 
+const modalContent = document.querySelector(".modal-content");
+
+const red = () =>{
+  modalContent.style.background = "rgb(175, 95, 95)";
+}
+
+const blue = () =>{
+  modalContent.style.background = "rgb(118, 118, 177)";
+}
+
+const yellow = () =>{
+  modalContent.style.background = "gray";
+}
+
+const white = () =>{
+  modalContent.style.background = "white";
+}
 
 
 let bot = new RiveScript();

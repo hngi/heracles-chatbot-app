@@ -34,6 +34,12 @@
                 <div class="modal-content">
                     <div class="bot-header">
                         <img class="bot-logo" src="https://res.cloudinary.com/benjee/image/upload/v1569363700/Group_3_tds6h9.svg" alt="logo">
+                        <div class="colors">
+                            <button onclick="red()" class="red animated zoomInUp delay-2s"></button>
+                            <button onclick="blue()" class="blue animated zoomInDown delay-2s"></button>
+                            <button onclick="yellow()" class="yellow animated zoomInUp delay-2s"></button>
+                            <button onclick="white()" class="white animated zoomInDown delay-2s"></button>
+                        </div>
                         <span class="close">&times;</span>
                     </div>
                     <!-- <div class="bot-conversation"> -->
